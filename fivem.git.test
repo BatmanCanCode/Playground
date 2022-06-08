@@ -1,0 +1,6 @@
+print("Code Based")
+RegisterCommand("albionai2", function(source, args, rawCommand)
+    if args[1] == "test_command" then
+        robo_c_function.s("demo")
+    end
+end)
